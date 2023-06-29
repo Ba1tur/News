@@ -3,8 +3,10 @@ import s from './Sidebar.module.scss'
 
 const Sidebar = () => {
 	return (
-		<aside>
-			
+		<aside className={s.sidebar_section}>
+			<div className={s.sidebar_section__block}>
+
+			</div>
 		</aside>
 	);
 };
