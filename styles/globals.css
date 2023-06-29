@@ -8,8 +8,9 @@
   box-sizing: border-box;
 }
 
-
-
+body{
+  background: #F7F8FA;
+}
 a,
 button {
   cursor: pointer;
