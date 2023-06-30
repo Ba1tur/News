@@ -1,0 +1,33 @@
+.sidebar_program {
+    float: right;
+    max-width: 257px;
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 21px;
+    h3 {
+        color: #000;
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 23px 0;
+    }
+    .slidebar_program_field {
+        .slidebar_program_field_content {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 27px;
+            background: rgba(247, 196, 196, 0.96);
+        }
+        .slidebar_program_field_content:nth-child(2) {
+            height: 270px;
+            background: #B0BCFD;
+        }
+        .slidebar_program_field_content:nth-child(3) {
+            height: 270px;
+            background: #8BFD78;
+        }
+    }
+}
