@@ -31,8 +31,18 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className={s.footer_bottom_block}>
-				
+			<div className={s.footer__bottom_block}>
+				<div className={s.footer__bottom_block__icons}>
+					<Image src='/telegram.svg' alt='frame.svg' width={41} height={40} />
+					<Image src='/instagram.svg' alt='frame.svg' width={41} height={40} />
+					<Image src='/facebook.svg' alt='frame.svg' width={41} height={40} />
+					<Image src='/youtube.svg' alt='frame.svg' width={41} height={40} />
+				</div>
+				<div className={s.footer__bottom_block__text_block}>
+					<a href="#">Политика конфиденциальности</a>
+					<a href="#">Пользовательское соглашение</a>
+					<button>Дополнительно</button>
+				</div>
 			</div>
 		</footer>
 	);

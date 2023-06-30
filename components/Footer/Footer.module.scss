@@ -1,7 +1,7 @@
 .footer {
   max-width: 1320px;
   width: 100%;
-  height: 360px;
+  height: 345px;
   padding: 0 1% 0 1%;
   margin: 0 auto;
   background: #24262a;
@@ -9,16 +9,16 @@
   &__top_block {
     width: 100%;
     display: flex;
-	 padding-top: 35px;
-	 padding: 35px 80px 1% 1%;
+    padding-top: 35px;
+    padding: 35px 80px 1% 1%;
     justify-content: space-between;
-	 border-bottom: 1px solid #36373A;
+    border-bottom: 1px solid #36373a;
     &__logo_block {
       &__header {
         display: flex;
         align-items: center;
         gap: 13px;
-		  margin-bottom: 25px;
+        margin-bottom: 25px;
         h6 {
           color: #437aac;
           font-size: 20px;
@@ -39,7 +39,7 @@
     }
     &__about {
       display: flex;
-		gap: 50px;
+      gap: 80px;
       &__title_block {
         h2 {
           color: #fff;
@@ -62,5 +62,46 @@
       }
     }
   }
+  &__bottom_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 50px 0 0;
+    &__icons {
+      display: flex;
+      gap: 16px;
+    }
+    &__text_block {
+      display: flex;
+      max-width: 741px;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-family: "Nunito Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
+      button {
+        max-width: 163px;
+        width: 100%;
+        height: 36px;
 
+        color: #fff;
+        font-size: 14px;
+        font-family: "Nunito Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+        border-radius: 4px;
+        border: none;
+        background: #45464a;
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
 }
