@@ -1,9 +1,13 @@
 import { useState, useEffect } from "react";
 import s from "./Header.module.scss";
 import Image from "next/image";
+import SignIn from "../SignIn/SignIn";
 
 const Header = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
+    <>
     <div className={s.header}>
       <div className={s.header_all}>
         <div className={s.header_all_input}>
@@ -26,7 +30,7 @@ const Header = () => {
             <button>
               <Image src="/messageBtn.svg" width={45} height={46} alt="messageBtn" />
             </button>
-            <button>
+            <button onClick={() => setIsModalOpen(!isModalOpen)}>
               <Image src="/loginBtn.svg" width={24} height={22} alt="messageBtn" />
               Войти
             </button>
@@ -34,6 +38,8 @@ const Header = () => {
         </div>
       </div>
     </div>
+    <SignIn isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen}/>
+    </>
   );
 };
 
