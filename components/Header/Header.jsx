@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import s from "./Header.module.scss";
 import Image from "next/image";
-import SignIn from "../SignIn/SignIn";
+import SignIn from "../Sign/Sign";
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
