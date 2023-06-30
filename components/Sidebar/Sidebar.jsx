@@ -9,6 +9,7 @@ const Sidebar = () => {
 	const { pathname } = useRouter();
 
 	return (
+		<div className='container'>
 			<aside  className={s.sidebar_section}>
 				{sideBarBase.map((item) => (
 					<div className={pathname === '/' ? s.sidebar_section__block_active : s.sidebar_section__block} key={item.id}>
@@ -17,6 +18,8 @@ const Sidebar = () => {
 					</div>
 				))}
 			</aside>
+		</div>
+			
 	);
 };
 
