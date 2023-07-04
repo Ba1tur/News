@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+			<div style={{ display: 'flex', width: '100%', justifyContent: 'space-between' }}>
 				<Sidebar />
 				{children}
 				<SidebarProgram />
