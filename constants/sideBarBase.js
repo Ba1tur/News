@@ -40,3 +40,16 @@ export const sideBarBase = [
     title: "Курсы программирования",
   },
 ];
+
+
+export const sideBarProgramContent = [
+  {
+    id: 1,
+  },
+  {
+    id: 2,
+  },
+  {
+    id: 3,
+  },
+]

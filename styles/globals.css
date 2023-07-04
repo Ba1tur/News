@@ -16,6 +16,12 @@ button {
   cursor: pointer;
 }
 
+input,
+button {
+  border: none;
+  background: none;
+}
+
 ul,
 ol {
   list-style: none;
@@ -23,6 +29,10 @@ ol {
 
 a {
   text-decoration: none;
+}
+
+input {
+  outline: none;
 }
 
 .container {
