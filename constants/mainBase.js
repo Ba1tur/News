@@ -1,0 +1,38 @@
+export const mainBase = [
+  {
+    id: 1,
+    img: "/main_img.png",
+    name: "Fortylines Io - Front End ",
+    date: "3-6 месяцев",
+    number: 15,
+    price: 600,
+    type: "Оффлайн",
+  },
+  {
+	id: 2,
+	img: "/main_img.png",
+	name: "Fortylines Io - Front End ",
+	date: "3-6 месяцев",
+	number: 15,
+	price: 600,
+	type: "Оффлайн",
+ },
+ {
+	id: 3,
+	img: "/main_img.png",
+	name: "Fortylines Io - Front End ",
+	date: "3-6 месяцев",
+	number: 15,
+	price: 600,
+	type: "Оффлайн",
+ },
+ {
+	id: 4,
+	img: "/main_img.png",
+	name: "Fortylines Io - Front End ",
+	date: "3-6 месяцев",
+	number: 15,
+	price: 600,
+	type: "Оффлайн",
+ },
+];
