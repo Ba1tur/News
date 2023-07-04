@@ -6,7 +6,6 @@ import Image from "next/image";
 const product = () => {
   return (
     <>
-      <div className="container">
         <div className={s.product}>
           <div className={s.product_logo}>
             <h3>FortyLines IO</h3>
@@ -69,7 +68,6 @@ const product = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
